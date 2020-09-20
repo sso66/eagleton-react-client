@@ -1,5 +1,5 @@
 import React from 'react';
-import FlexModule from '../../containers/FlexboxModule';
+import FlexModule from '../../containers/FlexboxContainer';
 
 const HomeView = () => (
     <FlexModule />

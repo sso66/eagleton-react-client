@@ -1,0 +1,14 @@
+.parent {
+    display: flex;
+    height: 300px;  /* whatever */
+}
+
+.child {
+    width: 150px;   /* whatever */
+    height: 150px;  /* whatever */
+    margin: auto;   /* magic */
+    background-color: tomato;
+    color: white;
+    font-size: calc(10px + 1vmin);
+}
+

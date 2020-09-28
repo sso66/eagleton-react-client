@@ -7,7 +7,7 @@ const HomeView = () => (
     <React.Fragment>
         <Navigation />
         <Matrix />
-        <FlexModule />
+        {/* <FlexModule /> */}
     </React.Fragment>
 );
 

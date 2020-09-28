@@ -5,7 +5,7 @@ const FlexboxContainer = () =>
     (
         <React.Fragment>
             <Flexboxes />
-            {/* <Flexbox /> */}
+            <Flexbox />
         </React.Fragment>
     )
 

@@ -11,7 +11,7 @@
   }
   
   .header {
-    background: tomato;
+    background: lightgreen;
   }
   
   .footer {
@@ -20,7 +20,7 @@
   
   .main {
     text-align: left;
-    background: deepskyblue;
+    background: skyblue;
   }
   
   .aside-1 {

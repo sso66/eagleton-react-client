@@ -1,0 +1,30 @@
+//_eagleton.sass
+
+$primary-color: orange
+$secondary-color: darkblue
+$tertiary-color: white
+
+$small-screen:   400px
+$medium-screen:  760px
+$large-screen:   1100px 
+
+@mixin flexbox() 
+    display: -webkit-box
+    display: -moz-box
+    display: -ms-flexbox
+    display: -webkit-flex
+    display: flex
+
+
+@mixin flex($values)
+    -webkit-box-flex: $values
+    -moz-box-flex: $values
+    -ms-flex: $values
+    -flex: $values
+
+
+@mixin orider($val)
+    -webkit-box-ordinal-group: $val
+    -moz-box-original-group: $val
+    -ms-flex-order: $val
+    -webkit-order: $val

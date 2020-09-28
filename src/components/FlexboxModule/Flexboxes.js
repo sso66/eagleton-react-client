@@ -1,5 +1,6 @@
 import React from 'react';
-import './Flexboxes.css';
+// import './Flexboxes.css';
+import './Flexboxes.sass';
 
 const Flexboxes = () => (
     <ul className="flex-container">

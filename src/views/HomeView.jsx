@@ -1,12 +1,12 @@
 import React from 'react';
 import FlexModule from '../containers/FlexboxContainer';
-import Navigation from '../components/Nav/Navigation'
-import MobileFirst from '../components/Mobile/MobileFirst';
+import Navigation from '../components/Navigation/Nav'
+import Matrix from '../components/MobileFirst/Matrix';
 
 const HomeView = () => (
     <React.Fragment>
         <Navigation />
-        <MobileFirst />
+        <Matrix />
         <FlexModule />
     </React.Fragment>
 );

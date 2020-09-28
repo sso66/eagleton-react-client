@@ -1,7 +1,7 @@
 import React from 'react';
-import './Navigation.css';
+import './Nav.css';
 
-const Navigation = () => (
+const Nav = () => (
     <ul className="navigation">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
@@ -10,4 +10,4 @@ const Navigation = () => (
     </ul>
 )
 
-export default Navigation;
+export default Nav;

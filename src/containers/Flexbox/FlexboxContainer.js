@@ -5,8 +5,8 @@ import { FlexboxItem, FlexboxItemGroup } from '../../components/FlexboxModule';
 const FlexboxContainer = () =>
     (
         <React.Fragment>
-            <FlexboxItem />
-            {/* <FlexboxItemGroup /> */}
+            {/* <FlexboxItem /> */}
+            <FlexboxItemGroup />
         </React.Fragment>
     )
 

@@ -36,8 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-/* override */
-.App-content {
-  background-color: darkseagreen;
-}

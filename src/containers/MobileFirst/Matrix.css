@@ -6,31 +6,27 @@
   }
   
   .wrapper > * {
-    padding: 10px;
     flex: 1 100%;
   }
   
   .header {
-    background: darkorange;
+    /* background: darkorange; */
   }
   
   .footer {
-    background: orange;
+    /* background: orange; */
   }
   
   .main {
-    text-align: left;
-    background: skyblue;
+    /* color: red */
   }
   
   .aside-1 {
-    display: none;
-    background: gold;
+    /* background: gold; */
   }
   
   .aside-2 {
-    display: none;
-    background: hotpink;
+    /* background: hotpink; */
   }
   
   @media all and (min-width: 600px) {

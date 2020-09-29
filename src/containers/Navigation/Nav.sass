@@ -1,0 +1,46 @@
+// Nav.sass
+
+// ___ Large screens ___
+.navigation
+  display: flex
+  flex-flow: row wrap
+  // ___ This aligns items to the end line on main-axis ___
+  justify-content: flex-end
+  list-style: none
+  margin: 0
+  background: black
+
+  a
+    text-decoration: none
+    display: block
+    padding: 1em
+    color: white
+
+    &:hover
+      background: #1565C0
+
+
+// ___ Medium screens ___
+@media all and (max-width: 800px)
+  .navigation
+    // ___ When on medium sized screens, we center it by evenly 
+    // distributing empty space around items ___
+    justify-content: space-around
+
+
+// ___ Small screens ___
+@media all and (max-width: 600px)
+  .navigation
+    // ___ On small screens, we are no longer using row direction 
+    // but column ___
+    flex-flow: column wrap
+    padding: 0
+
+    a
+      text-align: center
+      padding: 10px
+      border-top: 1px solid rgba(255, 255, 255, 0.3)
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+
+    li:last-of-type a
+      border-bottom: none

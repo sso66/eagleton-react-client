@@ -1,5 +1,6 @@
 import React from 'react';
-import './Nav.css';
+// import './Nav.css';
+import './Nav.sass'
 
 const Nav = () => (
     <ul className="navigation">

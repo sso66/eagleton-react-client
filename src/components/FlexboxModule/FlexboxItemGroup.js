@@ -1,8 +1,7 @@
 import React from 'react';
-// import './Flexboxes.css';
-import './Flexboxes.sass';
+import './FlexboxItemGroup.sass';
 
-const Flexboxes = () => (
+const FlexboxItemGroup = () => (
     <ul className="flex-container">
         <li className="flex-item">1</li>
         <li className="flex-item">2</li>
@@ -13,4 +12,4 @@ const Flexboxes = () => (
     </ul>
 )
 
-export default Flexboxes;
+export default FlexboxItemGroup;

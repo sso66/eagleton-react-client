@@ -1,14 +1,19 @@
 import React from 'react';
-import FlexModule from '../containers/FlexboxContainer';
-import Navigation from '../components/Navigation/Nav'
-import Matrix from '../components/MobileFirst/Matrix';
+import FlexboxContainer from '../containers/Flexbox/FlexboxContainer';   
+import Navigation from '../containers/Navigation/Nav'
+import Matrix from '../containers/MobileFirst/Matrix';
+import { FlexboxItem } from '../components/FlexboxModule';
 
+// shared-understanding
 const HomeView = () => (
     <React.Fragment>
+        <FlexboxContainer />
         <Navigation />
         <Matrix />
-        {/* <FlexModule /> */}
+        {/* </FlexboxContainer/> */}
     </React.Fragment>
 );
 
 export default HomeView;
+
+// eof 

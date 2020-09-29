@@ -1,0 +1,77 @@
+// Matrix.sass
+@import '../../styles/_eagleton.sass'
+
+// ___ Small screens ___
+.wrapper
+  display: flex
+  flex-flow: row wrap
+  text-align: center
+  // @include flexbox()
+
+  // ___ We tell all items to be 100% width, via flex-basis ___
+  > *
+    flex: 1 100%
+    padding: 5px
+
+// ___ We rely on HTML source order for mobile-first approach ___
+// 1. header
+// 2. main
+// 3. aside 1
+// 4. aside 2
+// 5. footer
+
+.header
+  background: darken($primary-color, 15%)
+
+
+.footer
+  background: lighten($secondary-color, 20%)
+
+
+.main
+  text-align: left
+  background: $tertiary-color
+
+
+.aside-1
+  background: darken($tertiary-color, 10%)
+  margin: 1px
+
+
+.aside-2
+  background: darken($tertiary-color, 10%)
+  margin: 1px
+
+  
+//___ Medium screens ___
+@media all and (min-width: 600px)
+  // ___ We tell both sidebars to share a row ___
+  .aside
+    flex: 1 auto
+    // flex: 1 0 0
+
+
+// ___ Large screens ___
+@media all and (min-width: 800px)
+  /* We invert order of first sidebar and main
+   * And tell the main element to take min/max flex-width as others two sidebars
+   */
+  $flex-width: 3
+
+  .main
+    flex: $flex-width 0px
+
+  .aside-1
+    order: 1
+
+  .main
+    order: 2
+
+  .aside-2
+    order: 3
+
+  .footer
+    order: 4
+
+// eof
+  

@@ -22,10 +22,7 @@ function App() {
           Learn React
         </a>
         </header>
-        
-        <main className='App-content'>
-          <HomeView />
-        </main>
+        <HomeView />
     </div>
   );
 }
